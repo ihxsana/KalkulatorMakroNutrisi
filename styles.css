@@ -1,0 +1,126 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f3e9;
+  color: #333;
+  background-image: url("https://img.freepik.com/free-photo/common-food-allergens-people_23-2149870616.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.calculator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #6980ff;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+}
+.btn.active {
+  background-color: #6980ff;
+  color: white;
+}
+.slider {
+  width: 100%;
+}
+.calculate-btn {
+  background-color: #6980ff;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+.results {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.macro-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid #6980ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+.macro-circle .total {
+  font-size: 32px;
+  font-weight: bold;
+}
+.macro-circle .unit {
+  font-size: 14px;
+}
+.macro-details {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.macro-item img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 5px;
+}
+.macro-item .value {
+  font-size: 24px;
+  font-weight: bold;
+}
+.macro-item .label {
+  font-size: 14px;
+}
+.formula {
+  margin-top: 20px;
+}
+.formula h3 {
+  margin-bottom: 10px;
+}
+.formula p {
+  margin-bottom: 10px;
+}
+.formula-chart {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
